@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, scale-factor=1">
+		
+		<link rel="stylesheet" type="text/css" href="ginger.css">
+		<script src="ginger.js"></script>
+		
+		<title>Mrs. Meyers Wiki</title>
+		<h1 class="welcome">Welcome to the Mrs. Meyers Wiki</h1>
+	</head>
+	<body>
+		<div id="floated">
+		<img src="GINGERMEYERS.jpg" alt="A picture of god">
+		<img src="myers.jpeg" alt="Another picture of mrs. meyers">
+		</div>
+		
+		<h1 class="about">Who is Mrs. Meyers?</h1>
+		<p class="is">Mrs. Meyers is one of the various Gods, in fact, she is one of the first Gods.</p>
+		<p class="is">Mrs. Meyers does indeed have a favorite class. It is of course sixth period.</p>
+		
+		<h2 class="header">About Mrs. Meyers</h2>
+		<p class="is">Mrs. Meyers is a US history teacher, and also a God (like I said <a href="#top">up there</a>).</p>
+		<p class="is">Mrs. Meyers highly enjoys her classes, mostly 6th period though. She looks forward to sixth period every day. </p>
+		<p class="is">Everyone in every grade in every school highly enjoys Mrs. Meyers. She has quite the personality.</p>
+		
+		<!--<canvas id="canvas1" width="300" height="300" style="border:2px solid black;"></canvas>
+		
+		<canvas class="canvas2" id="myCanvas" width="480" height="320"></canvas>-->
+		
+		<script>
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+		
+		ctx.beginPath();
+		ctx.rect(20, 40, 100, 50);
+		ctx.strokeStyle = "#FF0000";
+		ctx.stroke();
+		ctx.fillStyle = "black";
+		ctx.fill();
+		ctx.closePath();
+		
+		ctx.beginPath();
+		ctx.arc(240,160,20,0, Math.PI*2, false);
+		ctx.strokeStyle ="green";
+		ctx.stroke();
+		ctx.closePath();
+		</script>
+		
+		<footer class="footer">
+	<p id="wip">This website is a work in progress.</p>
+	<p class="rights">@Odin Morris 2018</p>
+	
+		</footer>
+	</body>
+	
+	<!--<p><a href="#top">Top of page.</a></p>-->
+</html>

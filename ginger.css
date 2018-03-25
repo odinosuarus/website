@@ -1,0 +1,87 @@
+.welcome {
+	text-align: center;
+	font-size: 28px;
+}
+
+/*.gingerpic {
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+	width: 30%;
+	height: 600px;
+	padding: 0 auto;
+} */
+
+/*.gingerpic2 img {
+	display: block;
+	align-content: right;
+	size: 200px 200px;
+	margin-left: auto;
+	margin-right: 0;
+	width: 30%;
+	height: 300px;
+	padding: 0 auto;
+}*/
+
+#floated {
+	float: right;
+}
+
+#floated img {
+	display: block;
+	height: auto;
+	width: 300px;
+}
+
+body {
+	text-align: center;
+	font-size: 20px;
+	background-color: lightblue;
+}
+
+.about {
+	position: static; 
+}
+
+#canvas1 {
+	background-color: black;
+}
+
+.canvas2 {
+	background: #000000;
+	display: block;
+	margin: 0 auto;
+}
+
+.rights {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#wip {
+	position: static;
+	font-size: 20px;
+	color: red;
+}
+
+.header {
+	position: static; 
+	text-align: center;
+}
+
+/*.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #808080;
+	color: white;
+	text-align: center;
+	    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}*/
